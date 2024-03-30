@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "./env/src/data",
+    "./env/src"
+  ]
+}
