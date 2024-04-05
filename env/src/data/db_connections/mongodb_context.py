@@ -1,8 +1,8 @@
 from pymongo import MongoClient
+from data.db_connections.connection_data import Connection_Data
 
 def create_connection_with_db():
-    CONNECTION_STRING = 'mongodb://localhost:27017'
-    client = MongoClient(CONNECTION_STRING)
-    db = client['shiptrackerdb']
+    client = MongoClient(Connection_Data.CONNECTION_STRING)
+    db = client[Connection_Data.DATABASE_NAME]
     return db
 
