@@ -1,6 +1,7 @@
 {
   "python.analysis.extraPaths": [
     "./env/src/data",
-    "./env/src"
+    "./env/src",
+    "./env/src/data/db_connections"
   ]
 }
