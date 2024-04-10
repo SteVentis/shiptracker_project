@@ -8,8 +8,8 @@ def insert_data_from_csv_to_mongodb(csv_filepath):
     db = mongodb_context.create_connection_with_mongodb()
     collection_name = mongodb_context.get_the_ships_collection(db)
     insert_ships_data(csv_filepath, collection_name)
-    collection_tracking_name = mongodb_context.get_the_tracking_collection(db)
-    insert_tracking_data(csv_filepath, collection_tracking_name)
+    collection_name = mongodb_context.get_the_tracking_collection(db)
+    insert_tracking_data(csv_filepath, collection_name)
 
 
 def insert_ships_data(csv_filepath, ships_collection_name):
