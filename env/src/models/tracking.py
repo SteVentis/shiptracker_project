@@ -8,8 +8,7 @@ class Tracking:
     - SOG stands for speed over the ground
     - COG stands for Course over ground
     """
-    def __init__(self, name, MMSI, BaseDateTime, LAT, LON, SOG, COG):
-        self.name = name
+    def __init__(self, MMSI, BaseDateTime, LAT, LON, SOG, COG):
         self.MMSI = MMSI
         self.BaseDateTime = BaseDateTime
         self.LAT = LAT
@@ -17,4 +16,4 @@ class Tracking:
         self.SOG = SOG
         self.COG = COG
         
-# μοντελοποίηση του tracking ενός πλοίου με κλάση Ship__tracking_model
+# μοντελοποίηση του tracking ενός πλοίου με κλάση Ship_tracking_model
