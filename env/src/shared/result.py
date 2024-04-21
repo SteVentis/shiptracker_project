@@ -8,4 +8,4 @@ class Result:
         self.exception = exception
             
     def __str__(self):
-        return  f'Is Success: {self.is_success}, Error: {self.error}, Exception: {self.exception}' 
+        return  f'Is Success: {self.is_success} Error: {self.error} Exception: {self.exception}' 
