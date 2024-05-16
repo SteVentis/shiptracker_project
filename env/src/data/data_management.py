@@ -1,6 +1,5 @@
 import csv
 from data.db_connections import mongodb_context
-from datetime import datetime
 from shared.error import Error
 from shared.result import Result
 
